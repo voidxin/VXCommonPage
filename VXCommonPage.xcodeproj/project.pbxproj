@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		508134391EF3B71B957A042E /* libPods-VXCommonPage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F869A7CC1E4BFDFD08952700 /* libPods-VXCommonPage.a */; };
 		576F0AB31E9E2E4B0067D018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F0AB21E9E2E4B0067D018 /* main.m */; };
 		576F0AB61E9E2E4B0067D018 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F0AB51E9E2E4B0067D018 /* AppDelegate.m */; };
 		576F0AB91E9E2E4B0067D018 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F0AB81E9E2E4B0067D018 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		576F0AC11E9E2E4B0067D018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576F0ABF1E9E2E4B0067D018 /* LaunchScreen.storyboard */; };
 		576F0ACC1E9E2E4C0067D018 /* VXCommonPageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F0ACB1E9E2E4C0067D018 /* VXCommonPageTests.m */; };
 		576F0AD71E9E2E4C0067D018 /* VXCommonPageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F0AD61E9E2E4C0067D018 /* VXCommonPageUITests.m */; };
+		576F0AE71E9F0AB50067D018 /* VXCommonPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F0AE61E9F0AB50067D018 /* VXCommonPageViewController.m */; };
+		576F0B2D1E9F10320067D018 /* VXCommonPageServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F0B2C1E9F10320067D018 /* VXCommonPageServiceProvide.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,13 @@
 		576F0AD21E9E2E4C0067D018 /* VXCommonPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VXCommonPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		576F0AD61E9E2E4C0067D018 /* VXCommonPageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VXCommonPageUITests.m; sourceTree = "<group>"; };
 		576F0AD81E9E2E4C0067D018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576F0AE51E9F0AB50067D018 /* VXCommonPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXCommonPageViewController.h; sourceTree = "<group>"; };
+		576F0AE61E9F0AB50067D018 /* VXCommonPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXCommonPageViewController.m; sourceTree = "<group>"; };
+		576F0B2B1E9F10320067D018 /* VXCommonPageServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXCommonPageServiceProvide.h; sourceTree = "<group>"; };
+		576F0B2C1E9F10320067D018 /* VXCommonPageServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXCommonPageServiceProvide.m; sourceTree = "<group>"; };
+		BC16DEF8D839DF5F273FCBF5 /* Pods-VXCommonPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXCommonPage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VXCommonPage/Pods-VXCommonPage.debug.xcconfig"; sourceTree = "<group>"; };
+		CE88077F2EAE9695EF6260A9 /* Pods-VXCommonPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXCommonPage.release.xcconfig"; path = "Pods/Target Support Files/Pods-VXCommonPage/Pods-VXCommonPage.release.xcconfig"; sourceTree = "<group>"; };
+		F869A7CC1E4BFDFD08952700 /* libPods-VXCommonPage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VXCommonPage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508134391EF3B71B957A042E /* libPods-VXCommonPage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C178745DABFAA275E13096F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC16DEF8D839DF5F273FCBF5 /* Pods-VXCommonPage.debug.xcconfig */,
+				CE88077F2EAE9695EF6260A9 /* Pods-VXCommonPage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		576F0AA51E9E2E4A0067D018 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,8 @@
 				576F0ACA1E9E2E4C0067D018 /* VXCommonPageTests */,
 				576F0AD51E9E2E4C0067D018 /* VXCommonPageUITests */,
 				576F0AAF1E9E2E4A0067D018 /* Products */,
+				1C178745DABFAA275E13096F /* Pods */,
+				B5A842FE30FA7831C427C0D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,8 +166,20 @@
 		576F0AE41E9E2E640067D018 /* VXCommonPage */ = {
 			isa = PBXGroup;
 			children = (
+				576F0AE51E9F0AB50067D018 /* VXCommonPageViewController.h */,
+				576F0AE61E9F0AB50067D018 /* VXCommonPageViewController.m */,
+				576F0B2B1E9F10320067D018 /* VXCommonPageServiceProvide.h */,
+				576F0B2C1E9F10320067D018 /* VXCommonPageServiceProvide.m */,
 			);
 			path = VXCommonPage;
+			sourceTree = "<group>";
+		};
+		B5A842FE30FA7831C427C0D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F869A7CC1E4BFDFD08952700 /* libPods-VXCommonPage.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 576F0ADB1E9E2E4C0067D018 /* Build configuration list for PBXNativeTarget "VXCommonPage" */;
 			buildPhases = (
+				55AD0BB6F2F305116040D921 /* [CP] Check Pods Manifest.lock */,
 				576F0AAA1E9E2E4A0067D018 /* Sources */,
 				576F0AAB1E9E2E4A0067D018 /* Frameworks */,
 				576F0AAC1E9E2E4A0067D018 /* Resources */,
+				5DD67139389B01389694B865 /* [CP] Embed Pods Frameworks */,
+				73020E0FD6FA6262A7274807 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +316,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55AD0BB6F2F305116040D921 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD67139389B01389694B865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VXCommonPage/Pods-VXCommonPage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73020E0FD6FA6262A7274807 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VXCommonPage/Pods-VXCommonPage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		576F0AAA1E9E2E4A0067D018 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -286,7 +371,9 @@
 			files = (
 				576F0AB91E9E2E4B0067D018 /* ViewController.m in Sources */,
 				576F0AB61E9E2E4B0067D018 /* AppDelegate.m in Sources */,
+				576F0AE71E9F0AB50067D018 /* VXCommonPageViewController.m in Sources */,
 				576F0AB31E9E2E4B0067D018 /* main.m in Sources */,
+				576F0B2D1E9F10320067D018 /* VXCommonPageServiceProvide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +518,7 @@
 		};
 		576F0ADC1E9E2E4C0067D018 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC16DEF8D839DF5F273FCBF5 /* Pods-VXCommonPage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XZ5PNLT2U8;
@@ -443,6 +531,7 @@
 		};
 		576F0ADD1E9E2E4C0067D018 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE88077F2EAE9695EF6260A9 /* Pods-VXCommonPage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XZ5PNLT2U8;
